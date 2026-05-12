@@ -1,3 +1,7 @@
+# Nama  : Lutfi Alfarizi
+# NIM   : F1D02310121
+# Kelas : C
+
 import json
 import requests
 from config import BASE_URL, TIMEOUT

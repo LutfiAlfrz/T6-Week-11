@@ -1,3 +1,7 @@
+# Nama  : Lutfi Alfarizi
+# NIM   : F1D02310121
+# Kelas : C
+
 from typing import Callable, Any
 from PySide6.QtCore import QObject, QThread, Signal
 from api_service import ApiError

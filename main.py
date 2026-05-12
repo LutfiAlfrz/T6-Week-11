@@ -1,3 +1,7 @@
+# Nama  : Lutfi Alfarizi
+# NIM   : F1D02310121
+# Kelas : C
+
 import sys
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
@@ -10,10 +14,6 @@ from PySide6.QtGui import QColor, QFont, QPalette
 from api_service import PostApiService
 from api_worker  import ApiWorker, run_worker
 from dialogs     import DeleteDialog, DetailPanel, PostForm
-
-from config import BASE_URL, TIMEOUT
-print(f"[DEBUG] BASE_URL = '{BASE_URL}'")
-print(f"[DEBUG] URL yang akan dipanggil = '{BASE_URL}/posts'")
 
 class PostManager(QMainWindow):
     def __init__(self):

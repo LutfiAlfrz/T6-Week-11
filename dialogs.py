@@ -1,3 +1,7 @@
+# Nama  : Lutfi Alfarizi
+# NIM   : F1D02310121
+# Kelas : C
+
 from PySide6.QtWidgets import (
     QDialog, QDialogButtonBox, QGroupBox, QLabel, QVBoxLayout,
     QHBoxLayout, QLineEdit, QTextEdit, QComboBox, QPushButton,
